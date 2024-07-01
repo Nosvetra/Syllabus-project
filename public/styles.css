@@ -1,0 +1,257 @@
+body {
+  margin: 0%;
+  background-color: black;
+  color: white;
+}
+
+/* .position-for-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: aqua;
+} */
+
+.header-flex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  /* margin-top: 15px; */
+  justify-content: space-between;
+  z-index: 1000;
+  background-color: #ff0066;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* align-items: center; */
+}
+
+.side-elemets {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.side-elemets > div {
+  padding-right: 50px;
+}
+
+.side-elemets > div > a {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.header-image {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.side-hook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20px;
+  height: 20px;
+}
+
+.line {
+  height: 0.5px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* This is the section where the get body part is going to come in  */
+
+.get-content-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.get-content-grid {
+  display: grid;
+  /* border: 1px solid white; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+}
+
+.itm1 {
+  grid-row: span 2;
+}
+
+.itm2 {
+  /* grid-column: span 2; */
+  grid-row: span 2;
+}
+
+.itm2 > div {
+  display: flex;
+  justify-content: center;
+}
+
+.itm2 > div > img {
+  height: 600px;
+  width: auto;
+  border-radius: 10%;
+}
+
+.itm1 > div {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-text {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.secondry-text {
+  font-size: 3.7rem;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 800;
+  color: #ff0066;
+}
+.itm3 > div {
+  display: flex;
+  justify-content: end;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  height: 275;
+  gap: 0px;
+}
+h1 {
+  display: inline-block;
+}
+h2 {
+  display: inline-block;
+}
+
+.flex-col-im2 {
+  align-self: flex-end;
+}
+
+/* the rediriection cards */
+.flex-for-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 50px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.common-card {
+  width: 320px;
+  height: 400px;
+  /* background-color: red; */
+  border-radius: 10%;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.flex-for-card > div > img {
+  height: 400px;
+  width: 320px;
+  opacity: 40%;
+  border-radius: 10%;
+  /* z-index: 0; */
+}
+
+.insideItms {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+/* Making a foooter */
+
+.ftr {
+  height: 20vh;
+  background-color: #ff0066;
+  position: relative;
+}
+.ftr > a {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  border: solid black 1px;
+}
+.ftr-img img {
+  width: 100%;
+}
+
+/* FOR the ejs file */
+.containter-for-ejs {
+  /* margin-right: 100px;
+  margin-left: 100px; */
+  width: 70%;
+  margin: auto;
+}
+
+.the-Unit {
+  font-family: "Raleway", serif;
+  font-size: 45px;
+  margin-bottom: 45px;
+}
+.the-Unit-topicBody {
+  font-family: "Raleway", serif;
+  font-size: 40px;
+  margin-bottom: 45px;
+}
+
+.tb-table {
+  width: 100%;
+  /* border: #ff0066 solid 1px; */
+  border-collapse: collapse;
+  margin-bottom: 45px;
+}
+td,
+th {
+  padding-left: 50px;
+  padding-right: 50px;
+  border: #ff0066 solid 1px;
+}
+
+.the-text-books-table {
+  font-family: "Raleway", serif;
+  font-size: 45px;
+  margin-bottom: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.more-info {
+  font-family: "Raleway", serif;
+  font-size: large;
+}
+
+.reduing-Margin {
+  margin: 0;
+}

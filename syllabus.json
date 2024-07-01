@@ -1,0 +1,346 @@
+[
+  {
+    "name": "/maths",
+    "courseCode": "BCA 102",
+    "courseName": "Applied Mathmatics",
+    "units": [
+      {
+        "unit": 1,
+        "bookReferece": "TB2 [chapters 3, 4], TB3 [chapters 2, 3, 4, 5, 6]",
+        "topics": {
+          "Probablity": "Introduction, Axiomatic definition of Probability, Addition Theorem, Multiplication theorem, Conditional Probability, Baye's Theorem and its applications",
+          "Probability Distribution": "Random Variable, Probability Mass function, Probability density function, Mathematical Expectations of a Random Variable, Binomial Distribution, Poisson distribution, Normal Distribution."
+        }
+      },
+      {
+        "unit": 2,
+        "bookReferece": "TB1 [chapters 2, 3], TB3 [chapters 7, 8, 9]",
+        "topics": {
+          "Interpolation": "Operators: Shift; Forward Difference, Backward Difference Operators and their Inter-relation, Interpolation Formulae-Newton's Forward, Backward and Divided Difference Formulae: Lagrange's Formula",
+          "Soulutions of NON liner Equation": "Bisection Method, False Position Method, Newton-Raphson Method for Solving Equation Involving One Variable only."
+        }
+      },
+      {
+        "unit": 3,
+        "bookReferece": "TB1 [chapters 5, 6], TB3 [chapters 10, 11]",
+        "topics": {
+          "SOLUTION OF LINEAR SIMULTANEOUS EQUATIONS": "Gaussian Elimination Method with and without Row Interchange: LU Decomposition: Gauss - Jacobi and Gauss-Seidel Method; Gauss – Jordan Method and to find Inverse of a Matrix by this Method. ",
+          "NUMERICAL DIFFERENTIATION": "First and Second Order Derivatives at Tabular and Non-Tabular Points",
+          "Numerical Integration": "Trapezoidal Rule, Simpsons 1/3 Rule: Error in Each Formula (without proof.)"
+        }
+      },
+      {
+        "unit": 4,
+        "bookReferece": "TB4 [Chapters 2, 3, 4, 9, 10]",
+        "topics": {
+          "LINEAR PROGRAMMING": "Formulation of linear Programming model, Graphical method of solving linear Programming problem, Simplex Method (Maximization and Minimization)",
+          "TRANSPORTATION & ASSIGNMENT PROBLEM": "General structure of transportation problem, solution procedure for transportation problem, methods for finding initial solution, test for optimality. Maximization of transportation problem, unbalanced transportation problem, Assignment problem approach of the assignment model, solution methods of assignment problem, maximization in an assignment, unbalanced assignment problem, restriction on assignment"
+        }
+      }
+    ],
+    "textbooks": [
+      {
+        "tb1": "S.S. Sastry, “Numerical Analysis”; Prentice Hall of India, 1998."
+      },
+      {
+        "tb2": "Johnson, R., Miller, I. and Freunds, J., Miller and Freund’s “Probability and Statistics for Engineers,Pearson Education (2005) 7th Ed."
+      },
+      {
+        "tb3": "Singh J P “Probability and Numerical Methods” ANE Books, 4th Edition 2019"
+      },
+      {
+        "tb4": "Sharma, J.K.; Operations Research: problems & solutions; Macmillan India"
+      }
+    ],
+    "referecebooks": [
+      {
+        "rb1": "Grewal B S “Numerical Methods in Engineering and Science” Khanna Publishers, 2012"
+      },
+      {
+        "rb2": "Walpole, Ronald E., Myers, Raymond H., Myers, Sharon L. and, Keying Ye, Probability and Statistics for Engineers and Scientists, Pearson Education (2007) 8th Ed. "
+      },
+      {
+        "rb3": "Gupta S C, Kapoor V K “Fundamental of Mathematical Statistics” Sultan Chand and Sons 11th edition 2002"
+      },
+      {
+        "rb4": "Manmohan, Gupta, P K, Kanti Swarup “Introduction to Management science operations research” Sultan Chand and Sons"
+      }
+    ]
+  },
+  {
+    "name": "/php",
+    "courseCode": "BCA 104",
+    "courseName": "Web Based Programming",
+    "units": [
+      {
+        "unit": 1,
+        "bookReferece": "TB1 [Chapters 1-3, 5]",
+        "topics": {
+          "Introduction to web applications, Client Side Scripting Vs Server Side Scripting, Web Servers": "Local Servers and Remote Servers, Installation Process - WAMP, LAMP, XAMPP & MAMP Server, Static website vs Dynamic website development.",
+          "Introduction to PHP": "Data types, Variables, Super Global Variables, Constants, Comments, Operators and Expressions,Regular Expression, Advantages of PHP Control statements: Conditional Statement -if else, if elseif else, nested if, switch case, PHP Loops – for, while, do while and foreach loop",
+          "Arrays": "Arrays: Indexed Array, Associate Array, Multi-dimensional Array, Array pre-defined Functions"
+        }
+      },
+      {
+        "unit": 2,
+        "bookReferece": " TB1 [Chapter 7]",
+        "topics": {
+          "Functions": " Defining and Calling Functions, Passing by Value and passing by references, Inbuilt Functions, variable scope, Mail function, PHP Errors",
+          "Working with forms": "Get and Post Methods, HTML form controls and PHP, State Management: Cookies, Session, Query String, Hidden Field."
+        }
+      },
+      {
+        "unit": 3,
+        "bookReferece": "TB1 [Chapter 6]",
+        "topics": {
+          "Working With Files": "Opening and Closing Files, creating directories and files, Reading and Writing to Files, file inclusion, file uploading and downloading, Getting Information on Files",
+          "Object Oriented Features ": "Classes and Objects, Building Classes, Access Modifiers, Reusability, Constructors, Destructor."
+        }
+      },
+      {
+        "unit": 4,
+        "bookReferece": "TB1 [Chapter 8]",
+        "topics": {
+          "PHP Database Connectivity": "Using PHP to Access a Database, Relational Databases and SQL, PHP Data Objects,MySQLi Object Interface, SQLite, MongoDB Introduction to MYSQL, Creating database and other operations on database, Querying a MySQL database with PHP database, connecting to a database, Parsing of the query results, Checking data errors."
+        }
+      }
+    ],
+    "textbooks": [
+      {
+        "tb1": "Programming PHP: Creating Dynamic Web Pages, Kevin Tatroe. Peter Macintyre, Rasmus Lerdorf, O'Reilly, Third Edition"
+      }
+    ],
+    "referecebooks": [
+      {
+        "rb1": "Professional PHP Programming,Jesus Castagnetto,Harish Rawat, Sascha Schumann,Chris Scollo,Deepak Veliath - Wrox Publications "
+      },
+      { "rb2": "PHP 5 Advanced, Larry Ullman, Peachpit Press" },
+      {
+        "rb3": "Core PHP Programming. Leon Atkinson (Prentice Hall, ISBN 0130463469)."
+      },
+      {
+        "rb4": "Beginning PHP5 and MySQL: From Novice to Professional, W. Jason Gilmore, 2004,Apress, ISBN: 1-893115-51-8"
+      }
+    ]
+  },
+  {
+    "name": "/dsa",
+    "courseCode": "BCA 106",
+    "courseName": "Data Structure and Algorithm Using C",
+    "units": [
+      {
+        "unit": 1,
+        "bookReferece": "TB1 [Chapters 1, 4, 9], TB2 [Chapters 1, 6, 7], TB3 [Chapters 1, 2,6,10]",
+        "topics": {
+          "Linear Data Structures- Static ": "Introduction to Algorithms- Attributes, Design Techniques, Time Space Trade Off,Data Structures, Classification and Operations of Data Structures.",
+          "Arrays": "Single Dimension, Two-Dimension and Introduction to Multi Dimensions, Memory Representation, Address Calculation, Sparse Matrices- Types, Representation.",
+          "Searching and Sorting ": "Linear and Binary Search, Selection Sort, Bubble Sort, Insertion Sort, Merge Sort, Elementary Comparison of Searching and Sorting Algorithms",
+          "Hashing": "Hash Table, Hash Functions, and Collision Resolution."
+        }
+      },
+      {
+        "unit": 2,
+        "bookReferece": "TB1 [Chapter 5], TB2 [Chapter 4], TB3 [Chapter 3]",
+        "topics": {
+          "Linear Data Structures ": "Dynamic",
+          "Introduction ": "Dynamic Memory Allocation, Dynamic Memory versus Static Memory Allocation.",
+          "Linked List Types": "Singly Linked List, Doubly Linked List, Header Linked List, Circular Linked List.",
+          "Operations ": "Creation, Insertion, Deletion, Modification, Searching, Sorting, Reversing, and Merging."
+        }
+      },
+      {
+        "unit": 3,
+        "bookReferece": "TB1 [Chapter 6], TB2 [Chapters 2, 4], TB3 [Chapters 4, 5]",
+        "topics": {
+          "Abstract Data Types": "",
+          "Stacks": "Introduction, Static and Dynamic Implementation, Operations, Applications- Evaluation and Conversionbetween Polish and Reverse Polish Notations.",
+          "Queues": "Introduction, Static and Dynamic Implementation, Operations, Types- Linear Queue, Circular Queue, Doubly Ended Queue, Priority Queue"
+        }
+      },
+      {
+        "unit": 4,
+        "bookReferece": "TB1 [Chapters 7, 8], TB2 [Chapters 5, 8], TB3 [Chapters 7, 8]",
+        "topics": {
+          "Non Linear Data Structures": "",
+          "Introduction to Graphs": "Notations & Terminologies, Representation of Graphs- Adjacency Matrix, Incidence Matrix and Linked Representation.",
+          "Trees": "Notations & Terminologies, Memory Representation, Binary Trees Types- Complete, Full, Strict, Expression Binary Tree, Tree Traversals (Recursive), Binary Search Tree and Basic Operations",
+          "Introduction and Creation (Excluding Implementation)": "AVL Tree, Heap Tree, M- Way Tree, and B Tree."
+        }
+      }
+    ],
+    "textbooks": [
+      {
+        "tb1": "Schaum’s Outline Series, “Data Structures”, TMH, Special Indian Ed., Seventeenth Reprint, 2014."
+      },
+      {
+        "tb2": "Y. Langsam, M. J. Augenstein and A.M. Tanenebaum, “Data Structures using C and C++”, Pearson Education India, Second Edition, 2015."
+      },
+      {
+        "tb3": "D. Samanta, “Classic Data Structures”, PHI, Second Edition, 2009."
+      }
+    ],
+    "referecebooks": [
+      {
+        "rb1": "Ashok N kamthane “Introduction to Data Structures in C”, Pearson, Third Edition, 2009."
+      },
+      {
+        "rb2": "E. Horowitz and S. Sahni, “Fundamentals of Data Structures in C”. Universities Press, Second edition, 2008"
+      },
+      {
+        "rb3": "D. Malhotra and N. Malhotra, “Data Structures and Program Design using C“, Laxmi Publications, Indian adapted edition from Mercury Learning and Information-USA, First edition, 2018."
+      },
+      {
+        "rb4": "Y. Kanetkar “ Data Structures through C”, BPB Publication, Third Edition, 2019."
+      },
+      {
+        "rb5": "R.F Gilberg, and B A Frouzan- “Data Structures: A Pseudocode Approach with C”, Thomson Learning, Second Edition, 2004."
+      },
+      {
+        "rb6": "A. K. Rath, and A.K. Jagadev, “Data Structures and Program Design Using C”, Scitech Publications, Second Edition, 2011."
+      }
+    ]
+  },
+  {
+    "name": "/dbms",
+    "courseCode": "BCA 108",
+    "courseName": "Database Management System",
+    "units": [
+      {
+        "unit": 1,
+        "bookReferece": "TB1 [Chapter 2]; TB2 [Chapter 1]",
+        "topics": {
+          "Introduction": "An overview of database management system, Characteristics of database approach, DBMS architecture, client/server, data Models, Introduction to Distributed Data processing, schema and instances, data independence,",
+          "Data Modelling using Entity Relationship Model": "Basic introduction about the terminologies like Entity, Entity types, entity set, notation for ER diagram, attributes and keys, Types of attributes (composite, derived and multivalued attributes) and keys (Super Key, candidate key, primary key), relationships, relation types, weak entities, enhanced E-R, specialization and generalization."
+        }
+      },
+      {
+        "unit": 2,
+        "bookReferece": "TB1 [Chapter 8]; TB2 [Chapter 2]",
+        "topics": {
+          "Introduction to SQL ": "Overview, Characteristics of SQL. Advantage of SQL, SQL data types and literals.",
+          "Types of SQL commands": "DDL, DML, DCL. Basic SQL Queries.",
+          "Logical operators": "BETWEEN, IN, AND, OR and NOT",
+          "Null Values": "Disallowing Null Values, Comparisons Using Null Values",
+          "Integrity constraints": "Primary Key, Not NULL, Unique, Check, Referential key Introduction to Nested Queries, Correlated Nested Queries, Set-Comparison Operators, Aggregate Operators: The GROUP BY and HAVING Clauses",
+          "Joins": "Inner joins, Outer Joins, Left outer, Right outer, full outer joins.Overview of other SQL Objects: Views, Sequences, Indexes, Triggers and stored procedure."
+        }
+      },
+      {
+        "unit": 3,
+        "bookReferece": "TB1 [Chapter 7 & 15]; TB2 [Chapter 3]",
+        "topics": {
+          "Relational Data Models ": "Relational model terminology domains, Attributes, Tuples, Relations, characteristics of relations, relational constraints domain constraints, key constraints and constraints on null, relational DB schema. Codd’s Rules",
+          "Relational algebra": "Basic operations selection and projection",
+          "Set Theoretic operations": "Union, Intersection, set difference and division (Order, Relational calculus: Domain, Tuple, Well Formed Formula, specification, quantifiers)",
+          "Join operations": "Inner, Outer, Left outer, Right outer, and full outer join",
+          "ER to relational mapping ": "Steps to map ER diagram to relational schema",
+          "Data Normalization": "Functional dependencies, Armstrong’s inference rule, & Normalization (Upto BCNF)"
+        }
+      },
+      {
+        "unit": 4,
+        "bookReferece": " TB1 [Chapter 19 & 20]; TB2 [Chapter 5]",
+        "topics": {
+          "Transaction Processing": "Definition of Transaction, Desirable ACID properties",
+          "Database recovery and Database Security": "System failure, Backup & recovery Techniques, Authentication, Authorization.",
+          "Overview of Query by Language, NoSql databses": null
+        }
+      }
+    ],
+    "textbooks": [
+      {
+        "TB1 ": "R. Elmarsi and SB Navathe, “Fundamentals of Database Systems”, Pearson, 5th Ed."
+      },
+      {
+        "TB2": "Singh S.K., “Database System Concepts, design and application”, Pearson Education[TB3]"
+      },
+      {
+        "TB3": ".Ramakrishnan and Gherke, “Database Management Systems”, TMH."
+      },
+      {
+        "TB4": "Bipin Desai, “An Introduction to Database Systems”, Galgotia Publications, 1991."
+      }
+    ],
+    "referecebooks": [
+      {
+        "rb1": "Abraham Silberschatz, Henry Korth, S. Sudarshan, “Database Systems Concepts”, 6th Edition, McGraw Hill, 2010."
+      },
+      {
+        "rb2": "Jim Melton, Alan Simon, “Understanding the new SQL: A complete Guide”, Morgan Kaufmann Publishers, 1993"
+      },
+      {
+        "rb3": "A. K. Majumdar, P. Battacharya, “Database Management Systems’, TMH, 2017."
+      }
+    ]
+  },
+  {
+    "name": "/evs",
+    "courseCode": "BCA 110",
+    "courseName": "Environmental Studies",
+    "units": [
+      {
+        "unit": 1,
+        "bookReferece": "TB1 [Chapters 1, 6]; TB2 [Chapters 8, 11, 25]; TB3 [Chapters 1, 35]",
+        "topics": {
+          "Introduction To Environmental Studies": "Multidisciplinary nature of environmental studies; components of environment: atmosphere, hydrosphere, lithosphere, and biosphere. • Scope and importance; Concept of sustainability and sustainable development• Emergence of environmental issues: Climate change, Global warming, Ozone layer depletion, Acid rain etc.• International agreements and programmer: Earth Summit, UNFCCC, Montreal and Kyoto protocols, Convention on Biological Diversity(CBD), Ramsar convention, The Chemical Weapons Convention (CWC), UNEP, CITES, etc"
+        }
+      },
+      {
+        "unit": 2,
+        "bookReferece": "TB1 [Chapters 2, 3]; TB2 [Chapters 2, 15, 16, 17]; TB3 [Chapters 2, 7, 11, 12]",
+        "topics": {
+          "Ecosystems and Natural Resources": "• Definition and concept of Ecosystem• Structure of ecosystem (biotic and abiotic components); Functions of Ecosystem: Physical (energy flow), Biological (food chains, food web, ecological succession), ecological pyramids and homeostasis.• Types of Ecosystems: Tundra, Forest, Grassland, Desert, Aquatic (ponds, streams, lakes, rivers, oceans, estuaries); importance and threats with relevant examples from India• Ecosystem services (Provisioning, Regulating, Cultural, and Supporting); Ecosystem preservation and conservation strategies; Basics of Ecosystem restoration• Energy resources: Renewable and non-renewable energy sources; Use of alternate energy sources; Growing energy needs; Energy contents of coal, petroleum, natural gas and bio gas; Agro-residues as a biomass energy source"
+        }
+      },
+      {
+        "unit": 3,
+        "bookReferece": "TB1 [Chapter 4]; TB2 [Chapters 4, 5, 6]; TB3 [Chapters 22, 23, 24]",
+        "topics": {
+          "Biodiversity and Conservation": "• Definition of Biodiversity; Levels of biological diversity: genetic, species and ecosystem diversity• India as a mega-biodiversity nation; Biogeographic zones of India; Biodiversity hotspots; Endemic and endangered species of India; IUCN Red list criteria and categories• Value of biodiversity: Ecological, economic, social, ethical, aesthetic, and informational values of biodiversity with examples.• Threats to biodiversity: Habitat loss, degradation, and fragmentation; Poaching of wildlife; Man-wildlife conflicts; Biological invasion with emphasis on Indian biodiversity; Current mass extinction crisis• Biodiversity conservation strategies: in-situ and ex-situ methods of conservation (National Parks, Wildlife Sanctuaries, and Biosphere reserves.• Case studies: Contemporary Indian wildlife and biodiversity issues, movements, and projects (e.g., Project Tiger, Project Elephant, Vulture breeding program, Project Great Indian Bustard, Crocodile conservation project, Silent Valley movement, Save Western Ghats movement, etc)"
+        }
+      },
+      {
+        "unit": 4,
+        "bookReferece": "TB1 [Chapter 5]; TB2 [Chapters 7, 20, 21, 23]; TB3 [Chapters 25, 26, 27, 28, 30, 31]",
+        "topics": {
+          "Environmental Pollution and Control Measures": "• Environmental pollution (Air, water, soil, thermal, and noise): causes, effects, and controls; Primary and secondary air pollutants; Air and water quality standards• Nuclear hazards and human health risks• Solid waste management: Control measures for various types of urban, industrial waste, Hazardous waste, E-waste, etc.; Waste segregation and disposal• Environmental Impact Assessment and Environmental Management System.",
+          "Field work/ Practical’s (any one)": "• Field visit to any of the ecosystems found in Delhi like Delhi Ridge/ Sanjay lake/Yamuna river and its floodplains etc., or any nearby lake or pond, explaining the theoretical aspects taught in the class room• Visit to any biodiversity park/ reserve forest/ protected area/ zoo/ nursery/ natural history museum in and around Delhi, such as Okhla bird sanctuary/ Asola Bhatti Wildlife Sanctuary/ Yamuna Biodiversity Park/ Sultanpur National Park, explaining the theoretical aspects taught in the classroom• Visit to a local polluted site (urban/rural/industrial/agricultural), wastewater treatment plants, or landfill sites, etc"
+        }
+      }
+    ],
+    "textbooks": [
+      {
+        "tb1": "Sanjay Kumar Batra , Kanchan Batra ,Harpreet Kaur; Environmental Studies; Taxmann’s, Fifth Edition."
+      },
+      {
+        "tb2": "M.M. Sulphey; Introduction to Environment Management; PHI Learning, 2019"
+      },
+      {
+        "tb3": "S.P. Mishra, S.N. Pandey; Essential Environmental Studies; Ane Books Pvt. Ltd. ; Sixth Edition."
+      }
+    ],
+    "referecebooks": [
+      {
+        "rb1": " Asthana, D. K. (2006).Text Book of Environmental Studies. S. Chand Publishing."
+      },
+      {
+        "rb2": " Basu, M., Xavier, S. (2016). Fundamentals of Environmental Studies, Cambridge University Press, India"
+      },
+      {
+        "rb3": " Bharucha, E. (2013). Textbook of Environmental Studies for Undergraduate Courses. Universities Press."
+      },
+      {
+        "rb4": " Mahapatra, R., Jeevan, S.S., Das, S. (Eds) (2017). Environment Reader for Universities, Centre for Science and Environment, New Delhi"
+      },
+      {
+        "rb5": " Masters, G. M., & Ela, W. P. (1991).Introduction to environmental engineering and science. Englewood Cliffs, NJ: Prentice Hall."
+      },
+      {
+        "rb6": " Odum, E. P., Odum, H. T., & Andrews, J. (1971).Fundamentals of ecology. Philadelphia: Saunders."
+      },
+      {
+        "rb7": " Sharma, P. D., & Sharma, P. D. (2005).Ecology and environment. Rastogi Publications"
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syllabus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section id="header">
+      <div class="position-for-header">
+        <div class="header-flex">
+          <img src="./refs/download.jpg" class="header-image" id="monkeyImage" />
+          <div class="side-elemets">
+            <div>
+              <a href="refs\1yr bca syll.pdf" download="sem2BcaSyllabus.pdf">SYLLABUS</a>
+              <a href="/maths">MATHS</a>
+              <a href="/php">PHP</a>
+              <a href="/dsa">DSA</a>
+              <a href="/dbms">DBMS</a>
+              <a href="/evs">EVS</a>
+            </div>
+
+            <div class="side-hook">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- The Syllabus which i am giving -->
+<% if (locals.headerImage && locals.fullObj) { %>
+    <section id="the-syllabus">
+      <div class="get-content-flex">
+        <div class="get-content-grid">
+          <div class="itm1 itms">
+            <div>
+              <div class="flex-column">
+                <h1 class="secondry-text"><%=fullObj["courseName"]%></h1>
+                <h1 class="primary-text"><%= fullObj["courseCode"] %></h1>
+              </div>
+            </div>
+          </div>
+          <div class="itm2 itms">
+            <div class="flex-col-im2">
+              <% if (locals.headerImage) { %>
+              <img src=<%=headerImage %> style= "width : 1919 px;" >
+              <% }%>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="containter-for-ejs">
+        <% fullObj["units"].forEach(element => { %>  
+        <h3 class="secondry-text reduing-Margin">Unit <%= element['unit'] %></h3>
+        <p class="more-info">
+          Chapter/Book Reference: <%= element['bookReferece'] %>
+        </p>
+        <% for( key in element['topics']) {%>
+          <% if (element["topics"].hasOwnProperty(key) ) {%>
+            <h3 class="the-Unit"> <%= key %> </h3>
+            <p class="the-Unit-topicBody">
+            <!-- the main topics are here -->
+             <%= element["topics"][key] %>  
+            </p>   
+          <% } %>
+        <% } %>
+        
+      <% }); %>
+        <!-- the text books -->
+        <h3 class="secondry-text">Text Books</h3>
+        <table class="tb-table">
+        <% fullObj['textbooks'].forEach( (element) => { %> 
+          <% for(key in element) {%>
+          <% if (element.hasOwnProperty(key)) { %> 
+          <tr>
+            <th class="secondry-text"><%= key.toUpperCase(); %></th>
+            <td>
+              <p class="the-text-books-table">
+                <%= element[key] %>
+              </p>
+            </td>
+          </tr>
+            <% } %>
+          <% } %>
+        <% }); %>
+        </table>
+        <!-- the Referecne books -->
+        <h3 class="secondry-text">Referecne Books</h3>
+        <table class="tb-table">
+          <% fullObj['referecebooks'].forEach ((element) => { %>
+            <% for(key in element) {%>
+              <% if(element.hasOwnProperty(key)) {%>
+                <tr>
+                  <th class="secondry-text"><%= key.toUpperCase() %></th>
+                  <td>
+                    <p class="the-text-books-table">
+                      <%= element[key] %>
+                    </p>
+                  </td>
+                </tr>
+              <% } %>
+            <% } %>
+          <% }); %>
+        </table>
+      </div>
+    </section>
+  <% } %>
+    <section id="footer">
+      <div class="ftr">
+        <div class="ftr-img">
+          <img src="./refs//footer.png" alt="Gata Only" />
+        </div>
+        <a href="../public/refs/1yr bca syll.pdf" download="sem2BcaSyllabus.pdf">SYLLABUS PFD</a>
+      </div>
+    </section>
+  </body>
+  <script>
+    const headerImage = document.getElementById("monkeyImage");
+      headerImage.addEventListener("click", () => {
+        window.location.href = `/`;
+      });
+  </script>
+</html>
