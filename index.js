@@ -4,7 +4,7 @@ import syllabus from "./syllabus.json" assert { "type": "json" };
 import axios from "axios";
 
 const app = express();
-const port = 3000;
+const port = process.env.port || 3000;
 
 const requests = [
   { name: "/maths" },
